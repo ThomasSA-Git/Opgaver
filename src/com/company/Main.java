@@ -10,10 +10,9 @@ public class Main {
 
     String navn = sc.next();
     System.out.println("Hej " + navn);
-
   }
 
-  public void askAboutAge() {
+  public void askAboutAlder() {
     System.out.println("Hvor gammel er du?");
     int alder = sc.nextInt();
     System.out.println(alder);
@@ -22,7 +21,7 @@ public class Main {
   public static void main(String[] args) {
     Main obj = new Main();
     obj.testNavn();
-    obj.askAboutAge();
+    obj.askAboutAlder();
     System.out.println("It works");
   }
 }
