@@ -7,20 +7,20 @@ public class Main {
 
   public void testNavn() {
     System.out.println("Hvad er dit navn?");
-
     String navn = sc.next();
     System.out.println("Hej " + navn);
   }
 
-    public void askAboutAge(){
-        System.out.println("Hvor gammel er du?");
-        int alder = sc.nextInt();
-        System.out.println(alder);
-    }
+  public void askAboutAge() {
+    System.out.println("Hvor gammel er du?");
+    int alder = sc.nextInt();
+    System.out.println(alder);
+  }
 
-    public static void main(String[] args) {
-        Main obj = new Main();
-        obj.testNavn();
-        obj.askAboutAge();
-        System.out.println("It works");    }
+  public static void main(String[] args) {
+    Main obj = new Main();
+    obj.testNavn();
+    obj.askAboutAge();
+    System.out.println("It works");
+  }
 }
